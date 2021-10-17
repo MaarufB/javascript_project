@@ -1,0 +1,13 @@
+Study about document selector
+
+We have study the query selector 
+    * GetElementsByClass
+    * GetElementsByID
+    * GetElementsByTagName
+
+GetElementsByClass = This query selector can be applied for defined class inside the html tag 
+GetElementsByID =  This query selector can be applied for defined id inside the html tag
+GetElementByTagName = This query selector can be applied for html tag only or elements like ul, li 
+
+querySelector = this query selector can use both getElement selectors on a single target only
+querySelectorAll = this query selector can use both getElement selectors on Multiple target
