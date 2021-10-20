@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+main, footer{
+    padding: 0;
+    margin: 0;
+}
+
+.main-wrapper{
+    background-color: #eaeaea;
+    border-bottom: 1px solid #c1c1c1;
+    margin-top: 10px;
+}
+.form-title{
+    text-align: center;
+}
+.flex-wrapper{
+    padding: 20px;
+    max-width: auto;
+    /*display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;*/
+    display: grid;
+    grid-template-columns: 1fr 2fr;    
+}
+
+#registration-form{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 10px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    border-bottom: 1px solid black;
+    width: 400px;
+}
+
+#submit-btn{
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color:black;
+    color: #fff;
+    cursor: pointer;
+}
+label {
+    line-height: 2.7em;
+    font-size: 14px;
+}
+.input-field{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.table-section{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.table-title{
+    text-align: center;
+}
+
+table, th, td{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+th{
+    text-align: left;
+}
+
+table{
+    border-collapse: collapse;  
+}
+
+#main-table{
+    overflow-y: scroll;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .flex-wrapper{
+        width: 95%;   
+        display: grid;
+        grid-template-columns: 1fr;  
+    }
+
+
+
+}

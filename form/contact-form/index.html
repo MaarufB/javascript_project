@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Add email functionality-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>  
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper-main">
+        <nav>
+            <h1 style="text-align: center;">Contact Form</h1>
+        </nav>
+
+        <header>
+            <h3></h3>
+        </header>
+        
+        <section class="s2">
+            <div class="main-container">
+                <a href=""></a>    
+                <form action="post" id="contact-form">
+                    <a name="contact"></a>
+                    <label>Name</label>
+                    <input type="text" 
+                           class="input-field" 
+                           name="name" 
+                           id="name">
+    
+                    <label>Subject</label>
+                    <input type="text" 
+                           class="input-field" 
+                           name="subject" 
+                           id="subject">
+    
+                    <label>Email</label>
+                    <input type="text" 
+                           class="input-field" 
+                           name="email" 
+                           id="email">
+    
+                    <label>Message</label>
+                    <textarea name="message" 
+                              class="input-field" 
+                              type="text" 
+                              id="message">
+                    </textarea>
+    
+                    <input type="submit" id="submit-btn">
+                    
+                </form>
+            </div>
+           
+        </section>
+        
+    </div>
+    
+
+</body>
+    <script src="script.js"></script>
+</html>

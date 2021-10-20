@@ -2,15 +2,13 @@ body{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    display: flex;
-    flex-wrap: wrap;
 }
 .container-flex{
     display: flex;
-    justify-items: center;
     flex-wrap: wrap;
     border: 2px solid red;
-    height: 20rem;
+    justify-content: space-around;
+
 }
 
 .container-flex .box{
@@ -26,16 +24,32 @@ body{
 
 
 .container-grid{
-    display: flex;
-    flex-wrap: wrap;
-    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
     border: 2px solid red;
 }
 
 .container-grid .box{
-    margin: 10px;
+    margin: 50px;
     color: red;
     border: 2px solid black;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
+}
+
+@media screen and (max-width:654px)
+{   
+    .container-grid{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        
+    }
+
+    .container-grid .box{
+        height: 100px;
+        width: 100px;
+        margin: 30px;
+        padding: 10px;
+    }
 }
