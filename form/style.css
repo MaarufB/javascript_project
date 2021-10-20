@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid blue;
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+
+#form{
+    display: flex;
+    align-items: center;
+    flex-flow: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    border:  2px solid red;
+    height: 200px;
+}
+.wrapper{
+    margin: 5px;
+}
+input{
+    font-size: 14px;
+}
+label{
+    margin: 5px;
+    font-size: 14px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+}

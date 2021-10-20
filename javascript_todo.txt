@@ -11,3 +11,8 @@ GetElementByTagName = This query selector can be applied for html tag only or el
 
 querySelector = this query selector can use both getElement selectors on a single target only
 querySelectorAll = this query selector can use both getElement selectors on Multiple target
+
+CreateElement
+
+
+Study About how to Forms using DOM

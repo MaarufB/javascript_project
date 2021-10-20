@@ -1,0 +1,41 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-flex{
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    border: 2px solid red;
+    height: 20rem;
+}
+
+.container-flex .box{
+    margin: 10px;
+    color: red;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+.wrapper{
+    margin: 50px;
+}
+
+
+.container-grid{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    border: 2px solid red;
+}
+
+.container-grid .box{
+    margin: 10px;
+    color: red;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}

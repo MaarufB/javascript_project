@@ -1,0 +1,12 @@
+1. Sketch out how the layout will look on mobile, tablet, and desktop
+2. Start coding the basic layout, using semantic HTML and CSS
+3. Going section by section, build the rest of the layout
+4. In your CSS, follow a mobile-first approach, creating the styles for the smallest
+    width, then progressively greater widths.
+
+
+* Stacking is the most basic way to fit content efficiently onto a narrow device like a mobile phone
+
+
+
+source: https://coder-coder.com/build-flexbox-website-layout/

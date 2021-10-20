@@ -1,0 +1,3 @@
+Store the arrayList to the localStorage
+Change The List elements to table
+Create A modal for confirmation

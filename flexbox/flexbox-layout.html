@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main, header, section, aside, footer{
+            margin: 0;
+            padding: 20px;
+            border: 1px solid #000000;
+            color: #ffffff;
+        }
+
+        main{
+            background: #000000;
+        }
+
+        header{
+            background: #03a9f4;
+        }
+
+        .hero {
+            background: #d22b1f;
+        }
+
+        .content{
+            background: #129a22;
+        }
+
+        .sidebar {
+            border: 1px solid #000000;
+            background: #673ab7;
+        }
+
+        .footer {
+            border: 1px solid #000000;
+            background: #616161;
+        }
+
+        @media screen and (min-width: 640px) {
+            .flex-container{
+                display: flex;
+            }
+
+            .content {
+                flex: 1;
+            }
+
+            .sidebar {
+                flex: 0 1 300px;
+            }
+        }
+
+        .wrapper{
+            margin: auto;
+            max-width: 75rem;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <main>
+        Main
+
+        <!--Header-->
+        <header>
+            Header
+        </header>
+
+        <!--Hero-->
+        <section class="hero">
+            Hero
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius.
+            </p>
+        </section>
+       
+        <div class="flex-container wrapper">
+            <!--Content-->
+            <section class="content">
+                Content
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscong elit.
+                    Lorem ipsum dolor sit amet, consectetur adipiscong elit.
+                    Lorem ipsum dolor sit amet, consectetur adipiscong elit.
+                    Lorem ipsum dolor sit amet, consectetur adipiscong elit.
+                    Lorem ipsum dolor sit amet, consectetur adipiscong elit
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscong elit.
+                    Lorem ipsum dolor sit amet, consectetur adipiscong elit.
+                    Lorem ipsum dolor sit amet, consectetur adipiscong elit.
+                    Lorem ipsum dolor sit amet, consectetur adipiscong elit.
+                    Lorem ipsum dolor sit amet, consectetur adipiscong elit
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscong elit.
+                    Lorem ipsum dolor sit amet, consectetur adipiscong elit.
+                    Lorem ipsum dolor sit amet, consectetur adipiscong elit.
+                    Lorem ipsum dolor sit amet, consectetur adipiscong elit.
+                    Lorem ipsum dolor sit amet, consectetur adipiscong elit
+                </p>
+            </section>
+            <!--Sidebar-->
+            <aside class="sidebar">
+                Sidebar
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscong elit.
+                    Lorem ipsum dolor sit amet, consectetur adipiscong elit.
+                    Lorem ipsum dolor sit amet, consectetur adipiscong elit.
+                    Lorem ipsum dolor sit amet, consectetur adipiscong elit.
+                    Lorem ipsum dolor sit amet, consectetur adipiscong elit
+                </p>
+            </aside>
+        </div>
+    
+        <!--Footer-->
+        <footer class="footer">
+            Footer
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscong elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscong elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscong elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscong elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscong elit
+            </p>
+        </footer>
+    </main>
+
+</body>
+</html>
