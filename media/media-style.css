@@ -1,0 +1,60 @@
+/* 
+    Using max-width
+*/
+
+body {
+    display: flex;
+}
+
+main{
+    flex: 1 0 75%;
+}
+
+aside{
+    flex: 1 0 25%;
+}
+
+@media (max-width: 622px){
+    body{
+        display: block;
+    }
+}
+
+/*
+    Using min-width
+*/
+/*
+main{
+    border: 1px solid black;
+}
+
+aside{
+    border: 1px solid black;
+}
+
+
+@media (min-width:688px){
+    body{
+        display: flex;
+    }
+
+    main{
+        flex: 1 1 75%;
+        border: 1px solid red;
+    }
+
+    aside{
+        flex: 1 1 25%;
+        border: 1px solid red;
+    }
+}
+
+@media (min-width:992px){
+    main{
+        border: 1px solid blue;
+    }
+    aside{
+        border: 1px solid blue;
+    }
+}
+*/

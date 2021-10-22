@@ -1,0 +1,12 @@
+working with media queries
+
+In General, we usually start with a range of three or four breakpoints that cover widths from
+mobile up through large screens.
+
+Let's say that you set breakpoint at 43em(688px), 62em(992px), and 82em(1312px) wide.
+You know that phones will all be under 688px, most tablets will fall somewhere between 688px and 992px
+, smaller screens will be between 992px to 1312px, and larger screens will be greater than 1312px.
+
+
+max-width = longer than or higher than
+min-width = shorter than or lower than
