@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>justify-content</title>
+
+ 
+<style>
+    .container{
+        display: flex; /* or inline-flex*/
+        flex-wrap: wrap;
+    }
+    .box{
+        background-color: red;
+        height: 50px;
+        width: 200px;
+        margin: 10px;
+        color: white;
+        text-align: center;
+        font-size: 24px;
+    }
+    .flex-start{
+        justify-content: flex-start;
+    }
+
+    .flex-end{
+        justify-content: flex-end;
+    }
+    .center{
+        justify-content: center;
+    }
+    .start{
+        justify-content: start;
+    }
+    .end{
+        justify-content: end;
+    }
+    .left{
+        justify-content: left;
+    }
+    .right{
+        justify-content: right;
+    }
+    .space-around{
+        justify-content: space-around;
+    }
+    .space-between{
+        justify-content: space-between;
+    }
+    .space-evenly{
+        justify-content: space-evenly;
+    }
+    
+</style>
+</head>
+  
+    
+<body>
+    <main>
+        <h1 style="text-align:center;">
+            This is flexbox
+        </h1>
+        <section>
+            <h2 style="text-align:center;">flex-start</h2>
+            <div class="container flex-start" style="border: 1px solid blue;">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+            </div>
+        </section>
+        
+        <section>
+            <h2 style="text-align: center;">flex-end</h2>
+            <div class="container flex-end" style="border: 1px solid blue;">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+            </div>
+        </section>
+    
+        <section>
+            <h2 style="text-align: center;">center</h2>
+            <div class="container center" style="border: 1px solid blue;">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+            </div>
+        </section>
+
+        <section>
+            <h2 style="text-align: center;">end</h2>
+            <div class="container end" style="border: 1px solid blue;">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+            </div>
+        </section>
+
+        <section>
+            <h2 style="text-align: center;">star</h2>
+            <div class="container start" style="border: 1px solid blue;">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+            </div>
+        </section>
+
+        <section>
+            <h2 style="text-align: center;">left</h2>
+            <div class="container left" style="border: 1px solid blue;">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+            </div>
+        </section>
+
+        <section>
+            <h2 style="text-align: center;">right</h2>
+            <div class="container right" style="border: 1px solid blue;">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+            </div>
+        </section>
+    
+        <section>
+            <h2 style="text-align: center;">space-between</h2>
+            <div class="container space-between" style="border: 1px solid blue;">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+            </div>
+        </section>
+
+        <section>
+            <h2 style="text-align: center;">space-around</h2>
+            <div class="container space-around" style="border: 1px solid blue;">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+            </div>
+        </section>
+
+        <section>
+            <h2 style="text-align: center;">space-evenly</h2>
+            <div class="container space-evenly" style="border: 1px solid blue;">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

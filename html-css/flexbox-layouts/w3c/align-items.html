@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>justify-items</title>
+
+    <style>
+        .container{
+            display: flex; /* or inline-flex*/
+        flex-wrap: wrap;
+        }
+        .box{
+            background-color: red;
+            height: 50px;
+            width: 200px;
+            margin: 10px;
+            color: white;
+            text-align: center;
+            font-size: 24px;
+        }
+        .center{
+            justify-content: center;
+            align-items: center;
+        }
+        .start{
+            align-items: flex-start;
+            justify-content: flex-start;
+        }
+        .right{
+            align-items: right;
+            justify-content: right;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <main>
+        <h1 style="text-align: center;">align-items</h1>
+        <section>
+            <h2 style="text-align:center;">center</h2>
+            <div class="container center" style="border: 1px solid blue;">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+            </div>
+        </section>
+
+        <section>
+            <h2 style="text-align:center;">start</h2>
+            <div class="container start" style="border: 1px solid blue;">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+            </div>
+        </section>
+
+        <section>
+            <h2 style="text-align:center;">end</h2>
+            <div class="container end" style="border: 1px solid blue;">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+            </div>
+        </section>
+
+        <section>
+            <h2 style="text-align:center;">right</h2>
+            <div class="container right" style="border: 1px solid blue;">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+            </div>
+        </section>
+
+        <section>
+            <h2 style="text-align:center;">left</h2>
+            <div class="container left" style="border: 1px solid blue;">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+</body>
+</html>

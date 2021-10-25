@@ -1,24 +1,19 @@
 .mainheader {
-    border: 1px solid black;
     grid-area: header;
   }
 .content {
-    border: 1px solid black;
     grid-area: content;
 }
 
 .panel {
-    border: 1px solid black;
     grid-area: sidebar;
 }
 
 .mainfooter {
-    border: 1px solid black;
     grid-area: footer;
 }
   
 .wrapper {
-    border: 1px solid red;
     width: 100%;
     max-width: 960px;
     margin: 0 auto;

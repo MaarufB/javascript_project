@@ -1,0 +1,50 @@
+display: flex | inline-flex;
+flex-direction: row | column;
+flex-wrap: wrap | nowrap | wrapreverse
+flex-basis: <lenght> = same as width
+justify-content: flex-start | flex-end | center = 
+align-self: flex-start | flex-end | center
+align-items: flex-start | flex-end | center
+align-content: flex-start | flex-end | center
+flex-grow: <number>;
+flex-shrink: <number>
+;flex: <interger>;
+order: <integer>;
+
+
+
+flex-direction:
+    * row => (default) left to right
+    * row-reverse => right to left 
+    * column => same as rows but top to bottom
+    * column-reverse => same as rows but bottom to top 
+
+flex-wrap:
+    * now-wrap = all flex-items will be on one line
+    * wrap = flex items will wrap onto multiple lines, from top to bottom
+    * wrap-reverse = flex items will wrap onto multiple lines from bottom to top
+    // short-hand for flex-direction and flex-wrap is flex-flow
+
+justify-content:  // this defines the alignment along the main axis. 
+    * flex-start = (default) items are packed toward the start of the flex-direction
+    * flex-end = items are packed toward the end of the flex-direction
+    * start = items are packed toward the start of the writing-mode direction
+    * end = items are packed toward left of the writing-mode direction
+    * left = items are packed toward left edge of the container, unless that doesn't make sense with the flex direction, then it behaves like start.
+    * right = items are packed toward right edge of the container, unless that doesn't make sense with the flex direction, then it behaves like end.
+    * center = items are centered along the line
+    * space-between = items are evenly distributed in the line; first item is on the start line, last item on the end line
+    * space-around = items are evenly distributed in the line with equal space around them. Note that visually the spaces aren’t equal, 
+                     since all the items have equal space on both sides. The first item will have one unit of space against the container edge, 
+                     but two units of space between the next item because that next item has its own spacing that applies.
+    * space-evenly = items are distributed so that the spacing between any two items (and the space to the edges) is equal.
+
+align-items: // This defines the default behavior for how flex items are laid out along the cross axis on the current line. 
+                  Think of it as a justify-content version but it is for cross axis or in vertical way.
+    * stretch = (default) stretch to fill the container (still respect min-width/max-width).
+    * flex-star/start/self-start = items are placed at the start of the cross axis. The difference between these is subtle, 
+                and is about respecting the flex-direction rules or the writing-mode rules.
+    * flex-end/end/self-end = items are placed at the end of the cross axis. The difference again is subtle and is about respecting 
+                              flex-direction rules vs. writing-mode rules.
+    * center = items are centered in the cross-axis
+    * baseline = items are alined in such as their baselines align
